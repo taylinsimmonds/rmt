@@ -1,0 +1,336 @@
+nav {
+    position: relative;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: black;
+}
+
+.card-header{
+    background-color: #ffc107;
+}
+
+#login-form {
+    padding-left: 400px;
+}
+
+.login-form-element {
+    border-radius: 25px;
+}
+
+#login-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    background color: #ffc107;
+}
+
+#logged-in {
+    list-style: none;
+    margin-left: auto;
+}
+
+#create-an-account {
+    font-size: 10px;
+}
+
+#nav-headers-bg {
+    background-color: #ffc107;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-dropdown-headers {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-headers {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-dropdown-headers {
+    border-left-style: outset;
+    cursor: pointer;
+    background-color: #ffc107;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+.nav-dropdowns {
+    padding-left: 10px;
+    padding-right: 110px;
+    cursor: pointer;
+}
+
+.dd-list-items {
+    padding-bottom: 10px;
+}
+
+.banner {
+    background-image: url(/assets/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.banner center {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+    border-radius: 75px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#small-banner {
+    display: none;
+}
+
+.search-form {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#search-form-input {
+    width: 800px;
+    border: none;
+    border-radius: 25px;
+}
+
+#search-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    background: #ffc107;
+    /* color: black; */
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.search-select {
+    margin-left: 35px;
+}
+
+#search-select {
+    position: absolute;
+    top: 14px;
+    right: 100px;
+    bottom: 0;
+    border-left-style: outset;
+    margin-bottom: 10px;
+}
+
+#search-select-dd {
+    padding-left: 10px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.search-results .result-row {
+    border: 2px solid black;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.teacher-photo {
+    border-radius: 25px;
+    padding-bottom: 50px;
+    max-height: 250px;
+}
+
+#profile-btm-row {
+    /* position: relative; */
+    float: right;
+}
+
+.view-more-btn, .add-review-btn {
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 5px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.add-review-btn {
+    margin-right: 55px;
+}
+
+.view-more-btn {
+    margin-right: 15px;
+}
+
+#view-more-icon, #add-review-icon {
+    height: 15px;
+}
+
+.add-review-section {
+    border: 1px solid black;
+    border-radius: 25px;
+    display: none;
+}
+
+.view-more-section {
+    border: 1px solid black;
+    border-radius: 25px;
+    position: relative;
+    display: none;
+}
+
+.edit-review {
+    text-decoration: none;
+    color: black;
+}
+
+.posted-time {
+    color: #bbb6b6;
+}
+
+.rating-btn {
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+}
+
+.post-anonymously {
+    left: 100px;
+}
+
+.comment-form {
+    border-radius: 25px;
+}
+
+.edit-btns {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+.edit-review {
+    padding-right: 5px;
+}
+
+.edit-review, .delete-review {
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid;
+}
+
+#footer-img {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* For mobile phones: */
+
+@media (max-width: 730px){
+    #login-form{
+        padding-left: 0px;
+    }
+    #nav-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 655px) {
+    .big-banner{
+        display: none;
+    }
+    #small-banner{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1200px){
+    #search-form{
+        width: 650px;
+    }
+}
+
+@media (max-width: 995px){
+    #search-form{
+        width: 400px;
+    }
+}
+
+@media (max-width: 991px){
+    .profile-btm-row{
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 770px){
+    #search-form{
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px){
+    .searched-teacher-info{
+        padding-left: 15px;
+    }
+    .teacher-name{
+        padding-left: 15px;
+    }
+    #profile-btm-row{
+        float: none;
+        text-align: center;
+    }
+    .add-review-btn, .view-more-btn{
+        margin-right: 0px;
+    }
+    .posted-time{
+        padding-left: 17px;
+    }
+    #nav-teachers, #nav-programs{
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+    #search-form-input{
+        width: 350px;
+    }
+    #search-select{
+        display: none;
+        border: none;
+    }
+    .search-results{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    .post-anonymously{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,20 @@
+[05-Feb-2019 18:43:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rmtbetterthancar/public_html/views/index.php on line 183
+[05-Feb-2019 18:44:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Review' not found in /home/rmtbetterthancar/public_html/views/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/rmtbetterthancar/public_html/views/index.php on line 45
+[05-Feb-2019 18:44:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Review' not found in /home/rmtbetterthancar/public_html/views/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/rmtbetterthancar/public_html/views/index.php on line 45
+[05-Feb-2019 18:51:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Review' not found in /home/rmtbetterthancar/public_html/views/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/rmtbetterthancar/public_html/views/index.php on line 45
+[05-Feb-2019 18:53:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Review' not found in /home/rmtbetterthancar/public_html/views/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/rmtbetterthancar/public_html/views/index.php on line 45
+[05-Feb-2019 20:23:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rmtbetterthancar/public_html/views/index.php on line 104
+[05-Feb-2019 20:23:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/rmtbetterthancar/public_html/views/index.php on line 104
+[06-Feb-2019 19:00:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rmtbetterthancar/public_html/views/index.php on line 193
